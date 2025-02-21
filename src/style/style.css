@@ -38,7 +38,7 @@ header {
 
 }
 
-ul {
+.menu {
     list-style: none;
     display: flex;
 }
