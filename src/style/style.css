@@ -7,6 +7,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', serif;
+    overflow: hidden;
 }
 
 header {
@@ -20,7 +21,7 @@ header {
 .menu-nav {
     font-family: sans-serif;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 
 }
@@ -95,6 +96,7 @@ main {
     background-color: #27d491;
     display: flex;
     justify-content: center;
+    flex-direction: row-reverse;
     height: 90%;
 
 }
@@ -103,7 +105,8 @@ main {
     width: 34%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 4rem;
 }
 
 h1 {
@@ -113,11 +116,11 @@ h1 {
 
 p {
     font-size: 22px;
+    width: 64%;
 }
 
 img {
-    height: 28rem;
-    margin-top: 4.5rem;
+    height: 64vh;
     border-radius: 3px;
 }
 
